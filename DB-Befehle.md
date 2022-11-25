@@ -301,6 +301,12 @@ WHERE[Bedingung]
     
     SELECT COUNT(Spaltenname)
     FROM...
+
+    -- z.B.
+    SELECT OUNT(Tier.Gattung) Tieranzahl
+    FROM TIER
+
+
     -- Anzahl der Werte in einer Spalte zählen (auch doppelte)
     -- Null wird nicht beachtet
     
